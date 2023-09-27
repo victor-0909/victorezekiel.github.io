@@ -26,7 +26,7 @@
   </section>
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>If you'd like to get in touch, feel free to email me at<a href="mailto: victoriousvictor003@gmail.com">victoriousvictor003@gmail.com</a></p>
+    <p>If you'd like to get in touch, feel free to email me at<a href="mailto: victoriousvictor003@gmail.com"> victoriousvictor003@gmail.com</a></p>
     <p>Also Feel free to Contact me at 09116756382</p>
   </section>
   <div class="ball"></div>
