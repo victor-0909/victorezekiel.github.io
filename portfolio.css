@@ -251,4 +251,5 @@ img {
   width: 108px;
   border: 1px solid grey;
   overflow: auto;
+  font-family: 'GestoRegular', Arial, Helvetica, sans-serif; 
 }
