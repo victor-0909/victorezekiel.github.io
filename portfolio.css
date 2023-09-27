@@ -246,3 +246,9 @@ img {
   width: 700px;
   height: 500px;
 }
+.scroll-bar {
+  height: 100%;
+  width: 108px;
+  border: 1px solid grey;
+  overflow: auto;
+}
