@@ -242,3 +242,7 @@ footer{
     left: -100;
   }
 }
+img {
+  width: 20px;
+  height: 10px;
+}
