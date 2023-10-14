@@ -1,61 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="portfolio.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vicky Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="port.css">
 </head>
 <body>
-  <header>
-    <h1>Victor Ezekiel</h1>
-    <p>Web developer|| Designer|| Full-Stack web developer</p>
-     <div class="social">
-      <a href="https://web.facebook.com/profile.php?id=100091330952706"><i class="fab fa-facebook" style="font-size: 200px;"></i></a>
-      <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2FVictor%2520Ezekiel%3Ffbclid%3DIwAR2BA1kACbNexDbBnXJWgx50kj2xE39j-Gl6agIuwvCpjTWfIqazNoQmue8&h=AT1N6VSnjmqLJFsZuArhcYK4iIKAeeTN4e22LasxANj_71W4fmLRHVYNO8KAGVxOhUM5eMq1kZNHKWUEUXLmPASH7Z3w0OKbpE6fkuJtM2cCzixmhAGpWrsvVaRKePQtT1gA"><i class="fa fa-youtube-play" style="font-size:48px;color:red"></i></a>
-      <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftiktok.com%2F%40victorezekiel743%3Ffbclid%3DIwAR0uaBZrxIN6_UaEvxkaIhc0F76k3Ir-f1tqpfJUif4i6jWLuCf38B9HvP4&h=AT2lAxm-M-QLRlVbjaNGgBYoXVqnTIoifpRIysYUE-R9eB-OlHVcqATLkLPiqTp6vsJ0ho56ZAxAp9eVkzWrzFFOQ2YiYNBD2zPkSjvLatcH39LHXZS-OA4A3DGPqFibRdd4"><i class="fa-brands fa-tiktok" style="font-size:48px;color:black"></i>
-    </div>
-  </header>
-  <nav>
-    <ul>
-       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html"> Contact</a></li>
-    </ul>
-  </nav>
-    <h2>My First Website which is God Blessed Company Website<h2>
-      <h1>Programming Languages used</h1>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-    <div class="project">
-      <img src="Project1.jpg.png" alt="This is my First Project which is God Blessed Company Website created for my brother">
-      <h3>God Blessed Company Website</h3>
-      <p>This is a Website created for my brother. He told me to create this website for him just for fun</p>
-    </div>
-  </section>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="moving-circles"></div>
-  <div class="scrolling-text-container">
-    <p class="scrolling-text">With a strong background in web development and user experience design, I specialize in creating sign-up pages that not only engage users effectively but also ensure data security and privacy. </p>
-  </div>
-      <div class="scroll-bar">
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
         
-      </div>
-  <footer>&copy;2023 Victor Ezekiel</footer>
-  <script src="portfolio.js"></script>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello It's Me</h3>
+            <h1>Victor Ezekiel</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>As a Full-Stack Developer at the age of 13, I am passionate about creating web applications that come to life through both front-end and back-end development. I have a solid foundation in web technologies such as HTML, CSS, JavaScript, and even server-side scripting languages. I enjoy crafting user-friendly interfaces, optimizing performance, and solving complex problems. I'm constantly learning and expanding my skills to stay at the forefront of the web development field. My enthusiasm and dedication drive me to express my creativity through coding and contribute to the world of technology.
+            </p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+        </div>
+
+
+        <div class="home-img">
+            <img src="My Picture.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="My Picture.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full-Stack Web Developer</h3>
+            <p>Hi there! I'm Victor Ezekiel, a 13-year-old Full-Stack developer with a passion for crafting websites and web applications. I love the challenge of bringing ideas to life, both on the front-end and back-end. I'm constantly exploring and learning, and I'm excited to share my coding journey with you. Join me on this web development adventure, and let's create something amazing together!</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Web Development</h3>
+                <p>Web Development is the process 
+                    of creating websites that are accessible on the internet.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        
+
+        <div class="services-box">
+            <i class='bx bxs-paint'></i>
+            <h3>Graphic Design</h3>
+            <p>Graphic design is a creative discipline
+                 that involves the visual communication of ideas
+                  through the use of layout.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxs-bar-chart-alt-2'></i>
+            <h3>Digital Marketing</h3>
+            <p>Digital marketing encompasses all marketing efforts 
+                 delivered through digital channels.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Shoe store.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>My Shoe Store</h4>
+                    <p>This is my Shoe Store that I created as a passionate 13 years old.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Dema Technology.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>This is for Dema Technology that I created as a blog</h4>
+                    <p>This is the Website for Dema Technology</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="My Portfolio.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>My Other Portfolio</h4>
+                    <p>This is my other Portfolio</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Youtube Clone.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>This is the Youtube Clone I created</h4>
+                    <p>This is the YouTube Clone I created</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#" name="submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <span id="msg"></span>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Victor Ezekiel | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+
+
+    <script src="port.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwnrWtQRTfukkYPRau8SgmlSfRCcdxitqxHVn-diLx1ZZI_V5giu0Bps8CZMR_iFopc4w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 </html>
