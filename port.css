@@ -454,5 +454,8 @@ span {
     margin-top: -40px;
     display: block;
 }
-h1 {
+h1 ol li {
     font-weight: 300px;
+    border: 2px solid green;
+}
+    
